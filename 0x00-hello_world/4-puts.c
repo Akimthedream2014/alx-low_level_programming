@@ -1,11 +1,9 @@
 #include <stdio.h>
-/**
-*main - prints - Entry point
-* 
-*Return: always 0(success)
+/** Write a C program that prints exactly "Programming is
+ * like building a multilingual puzzle, followed by a new line.
 */
-int main(void)
-{
-    puts("Programming is like building a multilingual puzzle");
-    return (0);
+
+ int main() {
+  puts("Programming is like building a multilingual puzzle");
+  return 0;
 }
