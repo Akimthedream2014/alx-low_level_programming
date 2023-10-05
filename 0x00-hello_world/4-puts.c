@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.>
 /**
  * main - Entry point of the program
  *
@@ -9,12 +9,6 @@
  */
 int main(void)
 {
-    // Define a string containing the message
-    char str[] = "Programming is like building a multilingual puzzle";
-
-    // Use the puts function to print the message with a newline
-    puts(str);
-
-    // Return 0 to indicate successful execution
-    return (0);
+	puts("Programming is like building a multilingual puzzle");
+	return (0);
 }
