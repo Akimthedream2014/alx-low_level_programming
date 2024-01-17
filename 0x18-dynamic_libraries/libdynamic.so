@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Source code file
+SOURCE_FILE="dynamic.c"
+
+# Shared library output file
+LIBRARY_NAME="libdynamic.so"
+
+# Compilation command
+gcc -shared -fPIC -o "$LIBRARY_NAME" "$SOURCE_FILE"
+
